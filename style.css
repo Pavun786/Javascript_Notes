@@ -1,0 +1,27 @@
+/* specificity - which style gets applied when is clash of styles */
+    /* !important (UN) > inline style (PM) > #id (CM) > .class (Dad) > Element (You) */
+    body{
+        
+      }
+        p{
+            color: rgb(55, 102, 8) !important;
+        }
+  
+        p{
+            color:yellow;
+         }
+        .fun{
+          color: blue;
+        }
+        #great{
+            color:rgb(255, 71, 157);
+        }
+
+        .over{
+          width: 320px;
+          padding: 10px;
+          border: 5px solid gray;
+          margin: 0;
+          overflow:auto;
+           
+        }
